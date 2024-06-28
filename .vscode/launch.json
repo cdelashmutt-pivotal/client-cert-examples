@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<simple>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.vmware.tanzu.se.simple.DemoApplication",
+      "projectName": "simple",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: simple
+  ssl:
+    bundle:
+      jks:
+        web-server:
+          key:
+            alias: "simple"
+          keystore:
+            location: "classpath:keystore.jks"
+            password: "storesecret"
+          truststore:
+            location: "classpath:truststore.jks"
+            password: "trustsecret"
+server:
+  ssl:
+    bundle: "web-server"
+    client-auth: WANT
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE

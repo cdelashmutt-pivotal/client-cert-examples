@@ -1,0 +1,12 @@
+simple/crypto/bad-client-cert
+simple/crypto/bad-client-key
+simple/crypto/ca-cert
+simple/crypto/ca-cert.srl
+simple/crypto/ca-key
+simple/crypto/client-cert
+simple/crypto/client-csr
+simple/crypto/client-key
+simple/crypto/server-cert
+simple/crypto/server-csr
+simple/src/main/resources/keystore.jks
+simple/src/main/resources/truststore.jks
