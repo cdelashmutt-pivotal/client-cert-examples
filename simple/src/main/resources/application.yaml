@@ -17,9 +17,3 @@ server:
   ssl:
     bundle: "web-server"
     client-auth: WANT
-
-logging:
-  level:
-    org:
-      springframework:
-        security: TRACE

@@ -1,1 +1,1 @@
-This directory contains some sample crypto material to test with.  You can wipe out the contents, and regenerate your own using the instructions in the project.
+This directory will contain openssl generated certificates and keys when you follow the instructions in the [../README.md](../README.md) file
